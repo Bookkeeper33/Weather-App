@@ -20,7 +20,14 @@ html {
     font-size: 16px;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
     min-height: 100vh;
@@ -33,7 +40,7 @@ header {
     align-items: center;
     gap: 1rem;
     padding: 0.55rem;
-    background: var(--gray-50);
+    background: var(--gray-300);
 
     .title {
         font-size: 1em;
@@ -50,5 +57,39 @@ header {
         .title {
             font-size: 0.86em;
         }
+    }
+}
+
+/* Main */
+main {
+    flex: 1;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.4rem;
+    color: var(--gray-300);
+    font-weight: 500;
+
+    svg {
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    svg:hover {
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    footer {
+        flex-direction: column-reverse;
+        gap: 0.4rem;
+        text-align: center;
     }
 }
