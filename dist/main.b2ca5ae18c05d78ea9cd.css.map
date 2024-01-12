@@ -1,0 +1,1 @@
+{"version":3,"file":"main.b2ca5ae18c05d78ea9cd.css","mappings":"AAAA,GAEI,SAAU,CADV,cAEJ","sources":["webpack://odin_weather_app/./src/style.css"],"sourcesContent":["h1 {\r\n    font-size: 20px;\r\n    color: red;\r\n}\r\n"],"names":[],"sourceRoot":""}
