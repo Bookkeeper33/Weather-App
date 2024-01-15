@@ -4,6 +4,9 @@ Weather Tracking app from Odin Project
 
 ## Features
 
+-   Get current forecast.
+-   Search any location worldwide.
+
 ## Built With
 
 -   HTML
@@ -13,4 +16,4 @@ Weather Tracking app from Odin Project
 
 ## Demos
 
-### [live demo](#) :ramen:
+### [live demo](https://bookkeeper33.github.io/Weather-App/) :ramen:
